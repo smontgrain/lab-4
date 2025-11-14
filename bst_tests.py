@@ -10,7 +10,7 @@ from bst import *
 
 
 class BSTTests(unittest.TestCase):
-pass
+    
 
 
 

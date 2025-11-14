@@ -18,6 +18,9 @@ class BinarySearchTree:
     comes_before: Callable[[Any, Any], bool]
     tree: BinTree
 
+#returns true if a is less than b
+def comes_before(a: Any, b: Any) -> bool:
+    return a < b
 
 #retuns true if the BST is empty, false otherwise
 def is_empty(BST: BinarySearchTree) -> bool:
