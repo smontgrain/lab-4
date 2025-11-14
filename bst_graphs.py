@@ -108,7 +108,7 @@ def time_one_insert(n: int) -> float:
 
 
 def plot_average_insert_time(n_max: int) -> None:
-    num_samples = 50
+    num_samples = 100
     Ns = np.linspace(0, n_max, num_samples, dtype=int)
     Ns = np.unique(Ns)
     Ys = [average_insert_time(int(n)) for n in Ns]
